@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: #dde1e7;
+            margin: 0;
+            padding: 0;
+            /* background-image: url(image/premium_photo-1669316982093-b2ed20cc82ba.avif); */
+            background-size: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        table {
+            margin-top: 20px;
+            border: none;
+            background: #dde1e7;
+            border-radius: 30px;
+            box-shadow: -3px -1px 10px #00000090,
+                20px 15px 15px #00000090;
+            
+        }
+
+        td,
+        tr {
+            color: black;
+            padding: 10px;
+            width: 170px;
+            font-family: "Gupter", serif;
+            
+        }
+
+        td input {
+            border-radius: 10px;
+            height: 40px;
+            border: none;
+            background-color: white;
+            font-family: "Oswald", sans-serif;
+        }
+
+        td input:hover {
+            background-color: #003399;
+            background: linear-gradient(to left, #ffc18b 0%, #abc2d2 73%);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <h1 style="color: black; border-radius: 10px; margin-right: 50px; box-shadow: -10px -10px 15px #ffffff90 , 15px 15px 10px #00000090;">Registration Form</h1>
+        <tr>
+            <td>Enter First Name</td>
+            <td><input type="text" name="fname" placeholder="Enter First Name" required style="box-shadow:inset -3px -1px 5px #ffffff80 ,inset 3px 3px 15px #00000090;"></td>
+        </tr>
+        <tr>
+            <td>Enter Last Name</td>
+            <td><input type="text" name="lname" placeholder="Enter Last Name" required style="box-shadow:inset -3px -1px 5px #ffffff80 ,inset 3px 3px 15px #00000090;"></td>
+        </tr>
+        <tr>
+            <td>Enter Username</td>
+            <td><input type="text" name="uname" placeholder="Enter Username" required style="box-shadow:inset -3px -1px 5px #ffffff80 ,inset 3px 3px 15px #00000090;"></td>
+        </tr>
+        <tr>
+            <td>Enter Email</td>
+            <td><input type="email" name="email" placeholder="Enter Email" required style="box-shadow:inset -3px -1px 5px #ffffff80 ,inset 3px 3px 15px #00000090;"></td>
+        </tr>
+        <tr>
+            <td>Enter Password </td>
+            <td><input type="password" name="pass" placeholder="Enter Password" required style="box-shadow:inset -3px -1px 5px #ffffff80 ,inset 3px 3px 15px #00000090;"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+            </td>
+        </tr>
+        <tr>
+            <td>Hobby</td>
+            <td><input type="checkbox" name="Hobby" value="Reading" >Reading
+                <input type="checkbox" name="Hobby" value="Writing">Writing
+                <input type="checkbox" name="Hobby" value="Singing">Singing
+            </td>
+        </tr>
+        <tr>
+            <td>Enter City </td>
+            <td><input type="text" name="city" placeholder="Enter city" required style="box-shadow:inset -3px -1px 5px #ffffff80 ,inset 3px 3px 15px #00000090;"></td>
+        </tr>
+        <tr>
+            <td>Enter Country </td>
+            <td><input type="text" name="country" placeholder="Enter country" required style="box-shadow:inset -3px -1px 5px #ffffff80 ,inset 3px 3px 15px #00000090;"></td>
+        </tr>
+        <tr>
+            <td>Select Car </td>
+            <td><select name="car" id="car">
+                    <option value="audi">Audi</option>
+                    <option value="bmw">BMW</option>
+                    <option value="mercedes">Mercedes</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Enter Comment </td>
+            <td><textarea name="comment" id="comment" cols="30" rows="5" style="box-shadow:inset -3px -1px 5px #ffffff80 ,inset 3px 3px 15px #00000090;"></textarea></td>
+        </tr>
+
+</body>
+
+</html>
